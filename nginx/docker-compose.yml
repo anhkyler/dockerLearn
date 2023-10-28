@@ -1,0 +1,11 @@
+version: '3'
+services:
+  simp-service:
+    image: nginx
+    ports:
+      - "8081:80"
+    volumes:
+      - .:/var/lib
+    stdin_open: true #keep container open
+    restart: always #keep container open
+    
