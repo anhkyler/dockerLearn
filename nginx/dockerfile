@@ -1,0 +1,6 @@
+FROM openjdk:8-jdk-alpine
+# have to use apk because the alpine
+RUN apk update
+RUN export JAVA_HOME
+
+# Setup JAVA_HOME -- useful for docker commandline
