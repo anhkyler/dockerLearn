@@ -1,0 +1,7 @@
+CREATE TABLE user (
+ID int NOT NULL,
+username varchar(255) NOT NULL,
+password varchar(255),
+roles varchar(255),
+active boolean
+);
